@@ -4,6 +4,6 @@ function theBeatlesPlay (musicians, instruments) {
 }
 
 function johnLennonFacts (facts) {
-  facts.forEach(e => e + "!!!")
-  return facts;
+  let newFacts = facts.forEach(e => e + "!!!")
+  return newFacts;
 }
