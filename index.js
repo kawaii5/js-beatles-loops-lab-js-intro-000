@@ -21,6 +21,7 @@ function iLoveTheBeatles (number) {
   let loveLoop = [];
   do {
     loveLoop.push("I love the Beatles!");
+    i++;
   } while (i < number);
   return loveLoop;
 }
