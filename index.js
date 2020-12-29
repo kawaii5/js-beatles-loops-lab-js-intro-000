@@ -17,5 +17,10 @@ function johnLennonFacts (facts) {
 }
 
 function iLoveTheBeatles (number) {
-
+  let i = 0;
+  let loveLoop = [];
+  do {
+    loveLoop.push("I love the Beatles!");
+  } while (i < number);
+  return loveLoop;
 }
